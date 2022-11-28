@@ -1,0 +1,33 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>9</zoom_level><help_text>Space for diagram notes</help_text><element><id>UMLClass</id><coordinates><x>117</x><y>0</y><w>594</w><h>387</h></coordinates><panel_attributes>Benutzer
+--
+- id: int
+- name: String
+- vorname: String
+- probezeit: bool
+- scherbehindert: bool
+- gesUrlaub: int
+- restUrlaub: int
+- bentragteTage: int
+- admin: bool
+--
++ Benutzer(id:int ,name:String, vorname:String, probezeit:bool, schwerbehindert:bool, gesamturlaub:int, resturlaub:int, beantragteTage:int, admin:bool)
++ setName(name : String): void
++ getName( ): String
++ setVorname(vorName : string ): void
++ getVorname( ): String
++ setProbezeit(probezeit :bool ): void
++ getProbezeit( ) : bool
++ setschwerbehindert(schwerbehindert :bool ): void
++ getSchwerbehindert( ): bool
++ setgesamtUrlaub(gesamtUrlaub int ): void
++ getgesamtUrlaub( ): int
++ getResturlaub(restUrlaub int ): void
++ setResturlaub(restUrlaub int ): int
++ getBeantragteTage(beantragteTage int ): void
++ getAdmin(): bool
++ setAdmin(admin bool): void
+
+
+
+
+</panel_attributes><additional_attributes></additional_attributes></element></diagram>
